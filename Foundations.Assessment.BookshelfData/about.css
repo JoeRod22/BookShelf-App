@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    background-color: black;
+}
+
+header {
+    height: 15%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    height: 75.3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    border: 1px solid black;
+    height: 100%;
+    /* width: 33.3333333% */
+}
+
+.blank {
+    background-color: white;
+    width: 20%
+}
+
+.main {
+    width: 60%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+}
+
+p {
+    color: black;
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    border-top: 3px solid black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+  
+  }
+  
+  .navList {
+    display:flex;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .navItem {
+    margin: 5px;
+    
+  }

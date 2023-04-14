@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Bookshelf</title>
+  </head>
+  <body>
+    <nav class="topNav">
+      <section class="search">
+        <input placeholder="Search" />
+        <button class="searchBtn">Search</button>
+      </section>
+      <section class="sort">
+        <label>Sort by</label>
+        <select class="sortBy">
+          <option value="titleaz">Title A-Z</option>
+          <option value="titleza">Title Z-A</option>
+        </select>
+      </section>
+      <section class="favorites">
+        You have <span class="favCount">0</span> favorite books.
+        <button class="favUpdateBtn">Update</button>
+      </section>
+      <section class="createBook">
+        <input type="text" id="textInput" placeholder="" />
+        <button id="createButton">Create Book</button>
+      </section> 
+    </nav>
+    <h1>The Great Bookshelf</h1>
+    <main id="app">
+      <ul class="books"></ul>
+    </main>
+    <nav class="navBar">
+      <ul class="navList">
+        <li class="navItem"><a href="index.html">Bookshelf</a></li>
+        <li class="navItem"><a href="about.html">About</a></li>
+        <li class="navItem"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+   
+    
+
+    <script src="js/book-data.js"></script>
+    <script src="js/book.js"></script>
+    <script src="js/bookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
